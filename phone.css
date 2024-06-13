@@ -1,0 +1,93 @@
+body{
+    background-color:white;
+}
+/* logo image */
+#logo img{
+    display: block;
+    margin: auto;
+}
+/* top  */
+
+
+/* navigation bar */
+#navbar{
+    flex-direction: column;
+}
+
+.navbarlist{
+    flex-direction: column;
+}
+
+.top::before{
+    height: 120%;
+    z-index: -1;
+    opacity: 0.4;
+}
+
+/* boxes */
+.boxes{
+    flex-direction: column;
+}
+.boxes img{
+    width:150px;
+    height:150px;
+}
+.boxesin{
+    width:200px;
+}
+
+.insidebox{
+    width: 150px;
+}
+.hr1::before{
+    justify-content: center;
+    height:240%;
+    width:102%;
+}
+/* special */
+.special{
+    flex-direction: column;
+    
+}
+
+.specialoffer1{
+    width:170px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.special img{
+    height: 150px;
+    width: 150px;
+}
+.specialbtn{
+    width: 100px;
+    height:80px ;
+}
+
+.veg{
+    width:160px
+}
+.hr2::before{
+    justify-content: center;
+    height:290%;
+    width:102%;
+}
+/* client */
+.clients{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.hr3::before{
+    height:200%;
+    width:102%;
+}
+/* foot */
+.foot{
+    flex-direction: column;
+}
+.hr4::before{
+    height: 190px;
+}
